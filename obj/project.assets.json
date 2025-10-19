@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "Microsoft.Data.Sqlite/9.0.10": {
         "type": "package",
         "dependencies": {
@@ -66,10 +66,10 @@
           "lib/netstandard2.0/_._": {}
         },
         "build": {
-          "buildTransitive/net9.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
+          "buildTransitive/net8.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         },
         "runtimeTargets": {
-          "runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a": {
+          "runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a": {
             "assetType": "native",
             "rid": "browser-wasm"
           },
@@ -327,36 +327,34 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Microsoft.Data.SQLite >= 9.0.10"
+    "net8.0": [
+      "Microsoft.Data.Sqlite >= 9.0.10"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\queco\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Taller\\repos\\2025\\db\\db.csproj",
+      "projectUniqueName": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
       "projectName": "db",
-      "projectPath": "D:\\Taller\\repos\\2025\\db\\db.csproj",
-      "packagesPath": "C:\\Users\\queco\\.nuget\\packages\\",
-      "outputPath": "D:\\Taller\\repos\\2025\\db\\obj\\",
+      "projectPath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\queco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -369,14 +367,13 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.Data.SQLite": {
+          "Microsoft.Data.Sqlite": {
             "target": "Package",
             "version": "[9.0.10, )"
           }
@@ -397,7 +394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
