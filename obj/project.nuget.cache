@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R90IKgbpryc=",
+  "dgSpecHash": "2sD/hcD9axI=",
   "success": true,
-  "projectFilePath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
+  "projectFilePath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP7\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.data.sqlite\\9.0.10\\microsoft.data.sqlite.9.0.10.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.10\\microsoft.data.sqlite.core.9.0.10.nupkg.sha512",

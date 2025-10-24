@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj": {}
+    "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP7\\tl2-tp6-2025-BautistaAlvarez\\db.csproj": {}
   },
   "projects": {
-    "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj": {
+    "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP7\\tl2-tp6-2025-BautistaAlvarez\\db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
+        "projectUniqueName": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP7\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
         "projectName": "db",
-        "projectPath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
+        "projectPath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP7\\tl2-tp6-2025-BautistaAlvarez\\db.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP6\\tl2-tp6-2025-BautistaAlvarez\\obj\\",
+        "outputPath": "E:\\Facultad\\Anio2\\Modulo2\\TallerLenguajeII\\Practica\\TP7\\tl2-tp6-2025-BautistaAlvarez\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
