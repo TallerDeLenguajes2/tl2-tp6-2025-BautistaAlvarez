@@ -5,7 +5,7 @@ public class ProductoRepository
 {
     string cadenaConexion = "Data Source=Tienda.db";//conexion para todo el repositorio
 
-    public void Create(Productos producto)
+    public void CrearNuevoProducto(Productos producto)
     {
         using var conexion = new SqliteConnection(cadenaConexion);
         conexion.Open();//establezco y abro la conexion
@@ -22,7 +22,7 @@ public class ProductoRepository
         //no es necesario agregar conexion close ya que using se encarga de cerrarlo cuando deja de usar conexion.Close(); //siempre cerrar la conexion
     }
 
-    public void Update(int idProducto, Productos producto)
+    public void ModificarProductoExistente(int idProducto, Productos producto)
     {
         using var conexion = new SqliteConnection(cadenaConexion);
         conexion.Open();
@@ -100,4 +100,19 @@ public class ProductoRepository
         comando.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
         comando.ExecuteNonQuery();
     }
+    public bool ExisteProducto(int idProducto)
+    {
+    using var conexion = new SqliteConnection(cadenaConexion);
+    conexion.Open();
+        //select COUNT(*) sirve para contar todas las filas de la talba presupuesto, y el WHERE lo uso para que solo cuente cuando haya coincidencia de ID. Lo cual siempre me devolvera 1 o 0
+        string sql = "SELECT COUNT(*) FROM Productos WHERE idProducto = @idProducto";
+        using var comando = new SqliteCommand(sql, conexion);
+
+        comando.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
+
+        long count = (long)comando.ExecuteScalar();//ExecuteScalar devuelve un solo valor, o te interesa sólo el primer valor de la primera fila.
+
+        return count > 0;//aqui retorno un bool, si es mayor a 0 es positivo y sino falso
+    }
+
 }

@@ -13,7 +13,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+        {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mi API v1"); // ruta del documento OpenAPI
+        c.RoutePrefix= string.Empty; // configura para que, si navegamos la raíz podamos ver la UI de swagger
+        });
 }
 
 app.UseHttpsRedirection();
